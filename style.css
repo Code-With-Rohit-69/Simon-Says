@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+.btn{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #000;
+    border-radius: 1rem;
+}
+
+.red{
+    background-color: rgb(255, 91, 91);
+}
+
+.yellow{
+    background-color: rgb(255, 255, 69);
+}
+
+.green{
+    background-color: rgb(66, 255, 66);
+}
+
+.purple{
+    background-color: rgb(253, 75, 253);
+}
+
+.flash{
+    background-color: white;
+}
